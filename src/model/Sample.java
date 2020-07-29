@@ -5,13 +5,13 @@ import java.util.List;
 
 public class Sample {
 
-	//Create list to store florists
+	//crear lista para guardar floristerias
 	static List<Florist> florists = new ArrayList<Florist>();
 	
-	//Create and get sample of florists
+	//crear y coger muestras de floristerias
 	public static List<Florist> getSample(){
 		
-		//Add sample of 3 florists
+		//añadir muestra de 3 floristerias
 	
 		Florist f1 = new Florist("Navarro");
 		f1.addTree(20, 50);

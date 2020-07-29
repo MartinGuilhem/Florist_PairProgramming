@@ -4,7 +4,7 @@ package views;
 public class Menu {
 	
 	
-	// returns selected option (int)
+	// retornar opcion seleccionada
 	public static int viewMainMenu()
 	{		
 		int optionMainMenu=0;
@@ -37,7 +37,7 @@ public class Menu {
 	}
 	
 	
-	
+	//menu editar floristeria
 	public static int editMenu(String name)
 	{		
 		int optionEditMenu=0;

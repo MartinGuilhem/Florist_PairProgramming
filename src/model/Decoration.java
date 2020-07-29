@@ -2,12 +2,12 @@ package model;
 
 public class Decoration {
 	
-	//ATTRIBUTES
+	//ATRIBUTOS
 	private String material;
 	private double price;
 	
 	
-	//CONSTRUCTORS
+	//CONSTRUCTORES
 	public Decoration() { }
 	
 	public Decoration(String material, double price) {
@@ -36,9 +36,9 @@ public class Decoration {
 	}
 	
 	
-	//METHODS
+	//METODOS
 	
-	//Show Decoration information
+	//muestra informacion de la decoracion
 	@Override
 	public String toString() {
 		String roundPrice = String.format("%.2f", price);

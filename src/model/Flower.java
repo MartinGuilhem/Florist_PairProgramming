@@ -2,13 +2,13 @@ package model;
 
 public class Flower {
 	
-	//ATTRIBUTES
+	//ATRIBUTOS
 	
 	private String color;
 	private double price;
 	
 	
-	//CONSTRUCTORS
+	//CONSTRUCTORES
 	
 	public Flower() { }
 	
@@ -37,9 +37,9 @@ public class Flower {
 	}
 	
 	
-	//METHODS
+	//METODOS
 	
-	//Show Flower information
+	//muestra informacino de flores
 	@Override
 	public String toString() {
 		String roundPrice = String.format("%.2f", price);

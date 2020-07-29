@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class UserInput {
 	
-//	reads the keyboard inputs
+//	LECTURA DE TECLADO
+	
 	public static String inPut()
 	{
 		Scanner sc = new Scanner(System.in);
