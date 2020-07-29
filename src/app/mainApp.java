@@ -10,10 +10,10 @@ public class mainApp {
 
 	public static void main(String[] args) {
 		
-		//Cargar muestra de floristerias desde Sample
+		//cargar muestra de floristerias desde Sample
 		List<Florist> florists = Sample.getSample();
 		
-		//Cargar menu con las opciones de la aplicación
+		//cargar menu con las opciones de la aplicación
 		FloristController.mainMenu(florists);
 	
 	}

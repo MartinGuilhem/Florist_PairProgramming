@@ -2,13 +2,13 @@ package model;
 
 public class Tree {
 
-	//ATTRIBUTES
+	//ATTRIBUTOS
 	
 	private double height;
 	private double price;
 	
 	
-	//CONSTRUCTORS
+	//CONSTRUCTORES
 	
 	public Tree() { }
 
@@ -38,9 +38,9 @@ public class Tree {
 	}
 	
 	
-	//METHODS
+	//METODOS
 	
-	//Show Tree information
+	//mostrar informacion de arbol
 	@Override
 	public String toString() {
 		String roundPrice = String.format("%.2f", price);

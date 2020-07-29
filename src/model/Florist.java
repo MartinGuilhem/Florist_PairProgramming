@@ -81,22 +81,22 @@ public class Florist {
 	//Muestra stock
 	public void showStock() {
 		String stock = "\n" + this.name.toUpperCase() +"'S FLORIST STOCK:\n";
-		//Get trees
+		//muestra arboles
 		stock += "\n<-- Trees -->\n";
 		for(int i=0; i<trees.size();i++) {
 			stock += trees.get(i).toString() + "\n";
 		}
-		//Get flowers
+		//muestra flores
 		stock += "\n<-- Flowers -->\n";
 		for(int i=0; i<flowers.size();i++) {
 			stock += flowers.get(i).toString() + "\n";
 		}
-		//Get decorations
+		//muestra decoraciones
 		stock += "\n<-- Decorations -->\n";
 		for(int i=0; i<decorations.size();i++) {
 			stock += decorations.get(i).toString() + "\n";
 		}
-		//Show stock
+		//muestra stock
 		System.out.println(stock);
 	}
 	
